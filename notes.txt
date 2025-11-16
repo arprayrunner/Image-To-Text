@@ -1,0 +1,4 @@
+1. Download and install 'Tesseract OCR' on your computer.
+2. Locate the 'Tesseract OCR' installation path after installation.
+3. Add the 'Tesseract OCR' installation path to your program configuration or environment variables.
+4. Install the required Python packages using: 'pip install -r requirements.txt'
