@@ -1,4 +1,4 @@
-# 🖼️ Image To Text
+# 🖼️ Image To Text (OCR using Python)
 
 Convert images into editable and searchable text using **Tesseract OCR** and **Python**. This tool extracts text from images (like scanned documents, screenshots or handwritten notes) with high accuracy. Using **CustomTkinter** for graphical user interface.
 
